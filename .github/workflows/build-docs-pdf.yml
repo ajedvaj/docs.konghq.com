@@ -7,7 +7,7 @@ on:
         required: true
 
 env:
-  VITE_PORTAL_API_URL: ${{ vars.VITE_PORTAL_API_URL }}
+  VITE_PORTAL_API_URL: 'http://developer.konghq.co'
 
 jobs:
   pdf:
