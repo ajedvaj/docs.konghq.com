@@ -26,6 +26,8 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: .ruby-version
+      - name: Install foreman
+        run: gem install foreman
       - name: Ruby gem cache
         uses: actions/cache@v3
         with:
